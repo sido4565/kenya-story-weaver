@@ -52,6 +52,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				kenyan: {
+					green: 'hsl(var(--kenyan-green))',
+					red: 'hsl(var(--kenyan-red))',
+					black: 'hsl(var(--kenyan-black))'
+				},
+				earth: {
+					orange: 'hsl(var(--earth-orange))',
+					gold: 'hsl(var(--warm-gold))',
+					brown: 'hsl(var(--safari-brown))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +72,16 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'hero-gradient': 'var(--gradient-hero)',
+				'card-gradient': 'var(--gradient-card)',
+				'warm-gradient': 'var(--gradient-warm)',
+			},
+			boxShadow: {
+				'warm': 'var(--shadow-warm)',
+				'story': 'var(--shadow-story)',
+				'glow': 'var(--shadow-glow)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
